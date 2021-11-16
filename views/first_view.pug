@@ -1,6 +1,10 @@
 doctype html
 html
    head
-      title = "Hello Pug"
+      title="Hello Pug"
    body
-      p Bienvenido #{name}. Su hora favorita son #{hora}   
+      include ./header.pug
+
+      p Bienvenido #{name}. Ha salido el #{number}
+      
+      include ./footer.pug
